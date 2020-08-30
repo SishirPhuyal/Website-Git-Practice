@@ -5,13 +5,20 @@ body{
 }
 body h2{
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 body img{
   height: auto;
   width: 400px;
   border: solid;
   border-color: white;
-  margin-top: 5%;
+  margin-bottom: 5%;
+}
+body iframe{
+  height: 250px;
+  width: 450px;
+  border: dashed;
+  margin-bottom: 6%;
 }
 
 header{
