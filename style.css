@@ -1,4 +1,26 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+body h2{
+  margin-top: 5%;
+}
+body img{
+  height: auto;
+  width: 400px;
+  border: solid;
+  border-color: white;
+  margin-top: 5%;
+}
+
 header{
   color: yellow;
   text-align: center;
+  border-bottom-style: solid;
+  border-color: yellow;
+}
+header h1{
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
