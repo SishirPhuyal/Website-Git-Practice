@@ -3,11 +3,11 @@ body{
   color: white;
   text-align: center;
 }
-body h2{
+body h3{
   margin-top: 5%;
   margin-bottom: 5%;
 }
-body img{
+body .img{
   height: auto;
   width: 400px;
   border: solid;
@@ -16,7 +16,7 @@ body img{
 }
 body iframe{
   height: 250px;
-  width: 450px;
+  width: 400px;
   border: dashed;
   margin-bottom: 6%;
 }
@@ -27,7 +27,16 @@ header{
   border-bottom-style: solid;
   border-color: yellow;
 }
-header h1{
+header h1, body h2{
   padding-top: 1%;
   padding-bottom: 1%;
+}
+.carousel img{
+  height: 500px;
+  width: 900px;
+  padding-bottom: 3%;
+}
+#row{
+  border-top-style: solid;
+  border-color: yellow;
 }
