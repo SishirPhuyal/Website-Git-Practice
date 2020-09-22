@@ -13,6 +13,9 @@
     <h1>Praticing Git Bash</h1>
   </header>
   <body>
+    <div class="col">
+      <button type="button" class="btn btn-primary btn-lg">Randomize Theme</button>
+    </div>
     <div class="row">
       <div class="col">
       <h2>Favorite Sports</h2>
@@ -65,4 +68,17 @@
       </div>
     </div>
   </body>
+  <script>
+  var darkColors = ["darkcoral","darkred","grey","darkgreen","darkblue","purple","darkorange"];
+  var lightColors = ["white","yellow","pink","lightblue","brightorange","lightgrey"];
+    $("button").click(function(){
+      console.log("Hello");
+      $("body").css({"background-color": darkColors[Math.floor(Math.random() * darkColors.length)],
+      "border-color": darkColors[Math.floor(Math.random() * darkColors.length)],
+      "color": lightColors[Math.floor(Math.random() * lightColors.length)]});
+      $("header").css({"border-color": darkColors[Math.floor(Math.random() * darkColors.length)],
+      "color": lightColors[Math.floor(Math.random() * lightColors.length)]});
+      $("#row").css({"border-color": darkColors[Math.floor(Math.random() * darkColors.length)]})
+    });
+  </script>
 </html>

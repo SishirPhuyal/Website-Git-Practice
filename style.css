@@ -40,3 +40,6 @@ header h1, body h2{
   border-top-style: solid;
   border-color: yellow;
 }
+button{
+  margin-top: 2.5%
+}
