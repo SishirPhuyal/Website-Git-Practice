@@ -43,3 +43,9 @@ header h1, body h2{
 button{
   margin-top: 2.5%
 }
+#panel{
+  text-align: center;
+}
+#flip{
+  font-size: 20px;
+}
